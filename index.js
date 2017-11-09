@@ -22,8 +22,6 @@ function calculatesFarePrice(){
     case distance:
       break;
     case :
-    
-    
-    
+
   }
 }
