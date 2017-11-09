@@ -21,7 +21,7 @@ function calculatesFarePrice(a, b){
     case distance<=400:
       return 0;
     case distance<2000:
-      return (distance-400)*.02;
+      return distance*.02;
     case distance<2500:
       return 25;
     case distance>2500:
