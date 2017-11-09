@@ -14,16 +14,17 @@ function distanceTravelledInFeet(a, b){
     const distance = Math.abs(a-b)*264;
     return distance;
 }
-/*
-function calculatesFarePrice(){
-  const distance = distanceTravelledInFeet();
+
+function calculatesFarePrice(a, b){
+  const distance = distanceTravelledInFeet(a, b);
   switch(true){
     case distance<=400:
       return 0;
-    case distance:
-      break;
-    case :
-
+    case distance<2000:
+      return (distance-400)*.02;
+    case distance<2500:
+      return "flat fare"
+    case distance>2500:
+      return 'cannot travel that far'
   }
 }
-*/
