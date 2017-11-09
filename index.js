@@ -5,8 +5,8 @@ function distanceFromHqInBlocks(pickupBlock){
 }
 
 
-function distanceFromHqInFeet(){
-  const feetHQ = distanceFromHqInBlocks()*264;
+function distanceFromHqInFeet(pickupBlock){
+  const feetHQ = distanceFromHqInBlocks(pickupBlock)*264;
   return feetHQ;
 }
 /*
