@@ -9,12 +9,12 @@ function distanceFromHqInFeet(pickupBlock){
   const feetHQ = distanceFromHqInBlocks(pickupBlock)*264;
   return feetHQ;
 }
-/*
+
 function distanceTravelledInFeet(a, b){
     const distance = Math.abs(a-b)*264;
     return distance;
 }
-
+/*
 function calculatesFarePrice(){
   const distance = distanceTravelledInFeet();
   switch(true){
