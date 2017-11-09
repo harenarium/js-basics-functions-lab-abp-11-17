@@ -4,6 +4,7 @@ function distanceFromHqInBlocks(pickupBlock){
   return blocksHQ;
 }
 
+/*
 function distanceFromHqInFeet(){
   const feetHQ = distanceFromHqInBlocks()*264;
   return feetHQ;
@@ -25,3 +26,4 @@ function calculatesFarePrice(){
 
   }
 }
+*/
