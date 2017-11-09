@@ -1,6 +1,6 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(pickupBlock){
-  let blocksHQ = math.abs(pickupBlock-42);
+  let blocksHQ = Math.abs(pickupBlock-42);
   return blocksHQ;
 }
 
@@ -9,5 +9,7 @@ function distanceFromHqInFeet(){
   return feetHQ;
 }
 
-function distanceTravelledInFeet
+function distanceTravelledInFeet(a, b){
+    let distance = Math.abs
+}
 calculatesFarePrice
