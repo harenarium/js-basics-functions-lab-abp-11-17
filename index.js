@@ -1,15 +1,29 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(pickupBlock){
-  let blocksHQ = Math.abs(pickupBlock-42);
+  const blocksHQ = Math.abs(pickupBlock-42);
   return blocksHQ;
 }
 
 function distanceFromHqInFeet(){
-  let feetHQ = distanceFromHqInBlocks()*264;
+  const feetHQ = distanceFromHqInBlocks()*264;
   return feetHQ;
 }
 
 function distanceTravelledInFeet(a, b){
-    let distance = Math.abs
+    const distance = Math.abs(a-b)*264;
+    return distance;
 }
-calculatesFarePrice
+
+function calculatesFarePrice(){
+  const distance = distanceTravelledInFeet();
+  switch(true){
+    case distance<=400:
+      return 0;
+    case distance:
+      break;
+    case :
+    
+    
+    
+  }
+}
